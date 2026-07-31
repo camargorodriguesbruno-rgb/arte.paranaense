@@ -1,15 +1,15 @@
 body{
-    background-color: darkolivegreen;
-    color: rgb(9, 77, 29);
+    background-color: rgb(18, 19, 18);
+    color: rgba(182, 6, 6, 0.726);
 }
 header{
-    background-color: #053305;
-    color: #11FF0B;
+    background-color: #181d18;
+    color: #8a0909b9;
 }
 main{
-    background-color: green;
+    background-color: rgb(0, 0, 0);
 }
 footer{
-    background-color: #19FF19;
-    color: #014001;
+    background-color: #011101;
+    color: #400101b2;
 }
