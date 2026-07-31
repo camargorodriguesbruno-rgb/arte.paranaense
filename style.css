@@ -1,11 +1,11 @@
 body{
-    background-color: rgb(18, 19, 18);
-    color: rgba(182, 6, 6, 0.726);
+    background-color: rgb(#03288A);
+    color: rgb(#F9ECE5);
     font-family: arial, sans-serif;
 }
 header{
-    background-color: #181d18;
-    color: #8a0909b9;
+    background-color: #B99EFF;
+    color: #230080;
     text-align:center;
     padding:  30px;
 }
@@ -13,7 +13,7 @@ h1{
     font-size: 36px;
 }
 h2{
-    color: #a70101;
+    color: #6182BA;
 }
 p{
     font-size: 20px;
