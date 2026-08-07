@@ -4,8 +4,8 @@ body{
     font-family: arial, sans-serif;
 }
 header{
-    background-color: #B99EFF;
-    color: #230080;
+    background-color: #EBFAFF;
+    color: #9300ED;
     text-align:center;
     padding:  30px;
 }
@@ -13,7 +13,7 @@ h1{
     font-size: 36px;
 }
 h2{
-    color: #6182BA;
+    color:#EBFAFF;
 }
 p{
     font-size: 25px;
@@ -24,7 +24,7 @@ main {
     margin: auto;
 }
 section{
-    background-color: antiquewhite;
+    background-color: #6A5875;
     margin: 20px;
     padding: 20px;
     border-radius: 12px;
@@ -38,6 +38,6 @@ img{
 figcaption{
     text-align: center;
     font-size: 14px;
-    color: bisque;
+    color: #A4AFB3;
     margin-top: 8px;
 }
