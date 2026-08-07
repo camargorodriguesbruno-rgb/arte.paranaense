@@ -24,7 +24,7 @@ main {
     margin: auto;
 }
 section{
-    background-color: #6A5875;
+    background-color: #a007ff;
     margin: 20px;
     padding: 20px;
     border-radius: 12px;
@@ -38,6 +38,6 @@ img{
 figcaption{
     text-align: center;
     font-size: 14px;
-    color: #A4AFB3;
+    color: #00a3df;
     margin-top: 8px;
 }
