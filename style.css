@@ -1,12 +1,12 @@
 body{
-    background-color: rgb(#04010fe3);
-    color: rgb(#faf9f9);
+    background-color: rgb(#000000);
+    color: rgb(#FFEBE8);
     font-family: arial, sans-serif;
     margin: 0;
 }
 header{
-    background-color: #000000;
-    color: #f1f1f1;
+    background-color: #0A1859;
+    color: #0FE65A;
     text-align:center;
     padding:  30px;
 }
@@ -14,7 +14,7 @@ h1{
     font-size: 36px;
 }
 h2{
-    color:#000000;
+    color:#FFEBE8;
 }
 p{
     font-size: 25px;
@@ -24,16 +24,16 @@ nav {
     margin-top: 20;
 }
 nav a {
-    color: #050000;
+    color: #14FF62;
     text-decoration: none;
-    background-color: #9b4d83;
+    background-color: #000000;
     padding: 10px 15px;
     border-radius:8px;
     margin: 5px;
     display: inline-block;
 }
 nav a:hover{
-    background-color: #c77dff;
+    background-color: #FFFFFF;
 }
 main {
     width: 80%;
@@ -54,14 +54,14 @@ img{
 figcaption{
     text-align: center;
     font-size: 14px;
-    color: #000000;
+    color: #0EB343;
     margin-top: 8px;
 }
 card{
     background-color:#f3d9fa;
     padding:15px;
     margin:15px o;
-    border-left: 6px solid #6b2d5c;
+    border-left: 6px solid #064D1D;
     border-radius: 10px;
 }
 card h3{
@@ -69,8 +69,8 @@ card h3{
 
 }
 footer{
-    background-color: #222222;
-    color: white;
+    background-color: #808080;
+    color: #000000;
     text-align: center;
     padding: 20px;
 margin-top: 30px;
