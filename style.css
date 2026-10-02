@@ -1,11 +1,11 @@
 body{
-    background-color: rgb(#000000);
-    color: rgb(#9b0dd3);
+    background-color: rgb(#483ddd);
+    color: rgb(#f2f0f3);
     font-family: arial, sans-serif;
     margin: 0;
 }
 header{
-    background-color: #000107;
+    background-color: #0026fc;
     color: #e6e7e6;
     text-align:center;
     padding:  30px;
@@ -14,7 +14,7 @@ h1{
     font-size: 36px;
 }
 h2{
-    color:#FFEBE8;
+    color:#0000ff;
 }
 p{
     font-size: 25px;
@@ -24,7 +24,7 @@ nav {
     margin-top: 20;
 }
 nav a {
-    color: #ba97fa;
+    color: #150888;
     text-decoration: none;
     background-color: #000000;
     padding: 10px 15px;
@@ -40,7 +40,7 @@ main {
     margin: auto;
 }
 section{
-    background-color: hsl(289, 84%, 80%);
+    background-color: hsl(249, 100%, 51%);
     margin: 20px;
     padding: 20px;
     border-radius: 12px;
@@ -61,7 +61,7 @@ card{
     background-color:#f3d9fa;
     padding:15px;
     margin:15px o;
-    border-left: 6px solid #9e4aff;
+    border-left: 6px solid #1900ff;
     border-radius: 10px;
 }
 card h3{
@@ -87,7 +87,7 @@ button{
     cursor: pointer;
 }
 button:hover{
-    background-color: #9b0dd3;
+    background-color: #2f00ff;
 }
 .curtir{
     display: block;
