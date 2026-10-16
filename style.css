@@ -3,8 +3,8 @@
     --cor-texto:rgb(255, 253, 253);
     --cor-principal:rgb(116, 116, 116);
     --cor-secundaria:white;
-    --cor-hover:rgb(15, 24, 0);
-    --cor-superficie:#341352;
+    --cor-hover:rgb(254, 255, 252);
+    --cor-superficie:#eeecf0;
     --cor-card: ;
     --cor-legends:rgb(71, 73, 73);
     --cor-clara:#302b2b;
@@ -92,7 +92,7 @@ card h3{
 }
 footer{
     background-color: #808080;
-    color: #000000;
+    color: #696868;
     text-align: center;
     padding: 20px;
 margin-top: 30px;
