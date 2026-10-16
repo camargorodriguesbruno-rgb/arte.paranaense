@@ -1,13 +1,13 @@
 :root {
-    --cor-fundo:darkblue;
-    --cor-texto:black;
-    --cor-principal:rgb(56, 35, 35);
+    --cor-fundo:rgb(0, 0, 0);
+    --cor-texto:rgb(255, 253, 253);
+    --cor-principal:rgb(116, 116, 116);
     --cor-secundaria:white;
-    --cor-hover:darkolivegreen;
+    --cor-hover:rgb(15, 24, 0);
     --cor-superficie:#341352;
     --cor-card: ;
-    --cor-legends:cadetblue;
-    --cor-clara:#f3f1f1;
+    --cor-legends:rgb(71, 73, 73);
+    --cor-clara:#302b2b;
     --cor-rodape:rgb(182, 198, 211);
 
 
@@ -18,13 +18,13 @@
 
 
 body{
-    background-color: rgb(#483ddd);
+    background-color: rgb(#686869);
     color: rgb(#f2f0f3);
     font-family: arial, sans-serif;
     margin: 0;
 }
 header{
-    background-color: #0026fc;
+    background-color: #030303;
     color: #e6e7e6;
     text-align:center;
     padding:  30px;
@@ -33,7 +33,7 @@ h1{
     font-size: 36px;
 }
 h2{
-    color:#0000ff;
+    color:#ffffff;
 }
 p{
     font-size: 25px;
@@ -43,23 +43,23 @@ nav {
     margin-top: 20;
 }
 nav a {
-    color: #150888;
+    color: #39393b;
     text-decoration: none;
-    background-color: #000000;
+    background-color: #e7e3e3;
     padding: 10px 15px;
     border-radius:8px;
     margin: 5px;
     display: inline-block;
 }
 nav a:hover{
-    background-color: #FFFFFF;
+    background-color: #494949;
 }
 main {
     width: 80%;
     margin: auto;
 }
 section{
-    background-color: hsl(249, 100%, 51%);
+    background-color: hsl(0, 0%, 0%);
     margin: 20px;
     padding: 20px;
     border-radius: 12px;
@@ -80,7 +80,7 @@ card{
     background-color:#f3d9fa;
     padding:15px;
     margin:15px o;
-    border-left: 6px solid #1900ff;
+    border-left: 6px solid #202020;
     border-radius: 10px;
 }
 card h3{
@@ -106,7 +106,7 @@ button{
     cursor: pointer;
 }
 button:hover{
-    background-color: #2f00ff;
+    background-color: #7f7f80;
 }
 .curtir{
     display: block;
