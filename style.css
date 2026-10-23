@@ -1,14 +1,14 @@
 :root {
-    --cor-fundo:rgb(0, 0, 0);
-    --cor-texto:rgb(255, 253, 253);
-    --cor-principal:rgb(116, 116, 116);
-    --cor-secundaria:white;
-    --cor-hover:rgb(254, 255, 252);
-    --cor-superficie:#eeecf0;
-    --cor-card: ;
-    --cor-legends:rgb(71, 73, 73);
-    --cor-clara:#302b2b;
-    --cor-rodape:rgb(182, 198, 211);
+    --cor-fundo:#08080a;
+    --cor-texto:#f5f5f7;
+    --cor-principal: #a78bfa;
+    --cor-secundaria:#e4e4e7;
+    --cor-hover:#c4b5fd;
+    --cor-superficie:#18181f;
+    --cor-card:#22222c ;
+    --cor-legends:#c4c4d0;
+    --cor-clara:#302b3d;
+    --cor-rodape:#111118;
 
 
 }
@@ -112,4 +112,10 @@ button:hover{
     display: block;
     width: fit-content;
     margin: 20px auto;
+}
+.galeria{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
