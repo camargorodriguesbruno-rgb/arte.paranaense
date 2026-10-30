@@ -10,10 +10,15 @@
     --cor-clara:#302b3d;
     --cor-rodape:#111118;
 
+}
+.tema-escuro{
+    --cor-fundo:#121212;
+    --cor-texto:#f5f5f5;
+    --cor-principal:#4f008f;
+    --cor-superficie:#1e1e1e;
+    --cor-card: #2b2530;
 
 }
-
-
 
 
 
@@ -23,15 +28,18 @@ body{
     font-family: arial, sans-serif;
     margin: 0;
 }
+
 header{
     background-color: #030303;
     color: #e6e7e6;
     text-align:center;
     padding:  30px;
 }
+
 h1{
     font-size: 36px;
 }
+
 h2{
     color:#ffffff;
 }
@@ -39,9 +47,11 @@ p{
     font-size: 25px;
     line-height: 1.6;
 }
+
 nav {
     margin-top: 20;
 }
+
 nav a {
     color: #39393b;
     text-decoration: none;
@@ -51,31 +61,37 @@ nav a {
     margin: 5px;
     display: inline-block;
 }
+
 nav a:hover{
     background-color: #494949;
 }
+
 main {
     width: 80%;
     margin: auto;
 }
+
 section{
     background-color: hsl(0, 16%, 96%);
     margin: 20px;
     padding: 20px;
     border-radius: 12px;
 }
+
 img{
     width: 100%;
     max-width: 600px;
     margin: auto;
     border-radius: 12px;
 }
+
 figcaption{
     text-align: center;
     font-size: 14px;
     color: #e2dddd;
     margin-top: 8px;
 }
+
 card{
     background-color:#f3d9fa;
     padding:15px;
@@ -83,13 +99,16 @@ card{
     border-left: 6px solid #202020;
     border-radius: 10px;
 }
+
 card h3{
     margin-top: 0;
 
 }
+
 .card p{
     margin-top: 0;
 }
+
 footer{
     background-color: #808080;
     color: #696868;
@@ -97,6 +116,7 @@ footer{
     padding: 20px;
 margin-top: 30px;
 }
+
 button{
     background-color: #000000;
     color:white;
@@ -105,17 +125,37 @@ button{
     border-radius: 8px;
     cursor: pointer;
 }
+
 button:hover{
     background-color: #7f7f80;
 }
+
 .curtir{
     display: block;
     width: fit-content;
     margin: 20px auto;
 }
+
 .galeria{
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
     justify-content: center;
 }
+
+.cards-curiosidades{
+    display: flex;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.btn-tema{
+    position: fixed;
+    right: 20px;
+    bottom:20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 22px;
+}
+
