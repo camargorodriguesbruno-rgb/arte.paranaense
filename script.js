@@ -1,15 +1,20 @@
-consonst botoesCurtir = document.querySelectorAll(".curtir");
+const botoesCurtir = document.querySelectorAll(".curtir");
 
-botoesCurtir.forEach((botao) => {
-    botao.addEventListener("click", ) => {
+botoesCurtir.forEach(function (botao) {
+    botao.addEventListener("click", function ()) {
         const contador = botao.querySelector("span");
 
-        let curtidas = Number(contador.textContent);
+        let quantidade = Number(contador.textContent);
 
-        curtidas++;
-
-        contador.textContent = curtidas;
-    
+        if (botao.classList.contains("curtido")) {
+            quantidade--;
+            botao.classList.remove("curtido");
+            botao.innerHTML = `❤️ Curtir <span>${0}</span>`;
+        } else {
+            quantidade++;
+            botao.classList.add("curtido");
+            botao.innerHTML = `❤️ Curtir <span>${0}</span>`;
+        }
 }
 });
 const botaoTema = document.querySelector(".btn-tema");
