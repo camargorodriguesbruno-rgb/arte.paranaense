@@ -1,23 +1,21 @@
 :root {
-    --cor-fundo:#08080a;
-    --cor-texto:#f5f5f7;
-    --cor-principal: #a78bfa;
-    --cor-secundaria:#e4e4e7;
-    --cor-hover:#c4b5fd;
-    --cor-superficie:#18181f;
-    --cor-card:#22222c ;
-    --cor-legends:#c4c4d0;
-    --cor-clara:#302b3d;
-    --cor-rodape:#111118;
-
+    --cor-fundo: #F8F6FC;
+    --cor-texto: #34303D;
+    --cor-principal: #A78BFA;
+    --cor-secundaria: #6D6478;
+    --cor-hover: #8B65C7;
+    --cor-superficie: #FFFFFF;
+    --cor-card: #EEE8F8;
+    --cor-legends: #34303D;
+    --cor-clara: #E2D5F5;
+    --cor-rodape: #EEE8F8;
 }
-.tema-escuro{
-    --cor-fundo:#121212;
-    --cor-texto:#f5f5f5;
-    --cor-principal:#4f008f;
-    --cor-superficie:#1e1e1e;
-    --cor-card: #2b2530;
-
+.tema-escuro {
+    --cor-fundo: #08080A;
+    --cor-texto: #F5F3FA;
+    --cor-principal: #A78BFA;
+    --cor-superficie: #121018;
+    --cor-card: #1B1724;
 }
 
 
