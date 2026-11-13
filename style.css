@@ -21,15 +21,15 @@
 
 
 body{
-    background-color: rgb(#686869);
-    color: rgb(#f2f0f3);
+    background-color:  var(--cor-fundo);
+    color: (--cor-texto);
     font-family: arial, sans-serif;
     margin: 0;
 }
 
 header{
-    background-color: #030303;
-    color: #e6e7e6;
+    background-color:  var(--cor-superficie);
+    color: (--cor-texto);
     text-align:center;
     padding:  30px;
 }
@@ -39,7 +39,7 @@ h1{
 }
 
 h2{
-    color:#ffffff;
+    color: var(--cor-principal);
 }
 p{
     font-size: 25px;
@@ -51,9 +51,9 @@ nav {
 }
 
 nav a {
-    color: #39393b;
+    color: var(--cor-texto);
     text-decoration: none;
-    background-color: #e7e3e3;
+    background-color:var(--cor-clara);
     padding: 10px 15px;
     border-radius:8px;
     margin: 5px;
@@ -61,7 +61,7 @@ nav a {
 }
 
 nav a:hover{
-    background-color: #494949;
+    background-color: (--cor-principal);
 }
 
 main {
@@ -70,10 +70,10 @@ main {
 }
 
 section{
-    background-color: hsl(0, 16%, 96%);
+    background-color:  var(--cor-superficie);
     margin: 20px;
     padding: 20px;
-    border-radius: 12px;
+    border-radius: 12px ;
 }
 
 img{
@@ -86,15 +86,15 @@ img{
 figcaption{
     text-align: center;
     font-size: 14px;
-    color: #e2dddd;
+    color:var(--cor-secundaria);
     margin-top: 8px;
 }
 
 card{
-    background-color:#f3d9fa;
+    background-color: var(--cor-card);
     padding:15px;
     margin:15px o;
-    border-left: 6px solid #202020;
+    border-left: 6px solid  var(--cor-principal);
     border-radius: 10px;
 }
 
@@ -108,15 +108,15 @@ card h3{
 }
 
 footer{
-    background-color: #808080;
-    color: #696868;
+    background-color: var(--cor-rodape);
+    color: var(--cor-secundaria);
     text-align: center;
     padding: 20px;
 margin-top: 30px;
 }
 
 button{
-    background-color: #000000;
+    background-color:var(--cor-principal);
     color:white;
     border: none;
     padding: 10px 15px;
@@ -125,7 +125,7 @@ button{
 }
 
 button:hover{
-    background-color: #7f7f80;
+    background-color: var(--cor-hover);
 }
 
 .curtir{
